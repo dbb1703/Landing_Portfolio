@@ -1,13 +1,16 @@
 {
   "name": "landing_portfolio",
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack serve --env develop"
+    "dev": "webpack serve --live-reload --mode development",
+    "build": "webpack --mode production"
   },
   "devDependencies": {
     "css-loader": "^7.1.2",
     "html-loader": "^5.1.0",
     "mini-css-extract-plugin": "^2.9.2",
+    "postcss": "^8.4.49",
+    "postcss-loader": "^8.1.1",
+    "postcss-preset-env": "^10.1.1",
     "sass": "^1.81.0",
     "sass-loader": "^16.0.3",
     "style-loader": "^4.0.0",
