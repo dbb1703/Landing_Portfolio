@@ -1,0 +1,30 @@
+body {
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  //color: $main-text;
+  margin: 0;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:active,
+a:visited {
+  color: #000000;
+}
+
+*:focus {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+picture {
+  display: flex;
+}
