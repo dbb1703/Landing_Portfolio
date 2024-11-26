@@ -1,14 +1,17 @@
+@use 'variables.scss' as v;
+
 body {
   font-family: Inter, sans-serif;
   font-size: 14px;
-  //color: $main-text;
+  color: v.$main-text;
   margin: 0;
+  background-color: #f3f2f0;
 }
 
 a,
 a:hover {
   text-decoration: none;
-  color: #000000;
+  color: v.$accent-text;
 }
 
 a:active,

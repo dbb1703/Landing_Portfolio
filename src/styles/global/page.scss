@@ -1,0 +1,27 @@
+@use 'variables.scss' as v;
+
+.page__h1 {
+  font-size: 74px;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: v.$main-text;
+}
+
+.page__h2 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: v.$main-text;
+}
+
+.page__h3 {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 150%;
+  opacity: 0.8;
+}
+
+
