@@ -8,14 +8,17 @@ body {
   background-color: #f3f2f0;
 }
 
-a,
-a:hover {
+a {
+  color: v.$main-text;
   text-decoration: none;
-  color: v.$accent-text;
 }
 
-a:active,
-a:visited {
+a:hover {
+  color: v.$accent-text;
+  text-decoration: none;
+}
+
+a:active {
   color: #000000;
 }
 
@@ -30,4 +33,10 @@ img {
 
 picture {
   display: flex;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }

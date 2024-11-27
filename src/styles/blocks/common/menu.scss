@@ -1,0 +1,31 @@
+.menu__list {
+  display: flex;
+
+
+}
+
+.menu__contacts {
+  display: flex;
+  padding-top: 2px;
+}
+
+.menu__item {
+  line-height: 150%;
+  margin-left: 29px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:nth-child(3) {
+    margin-left: 28px;
+  }
+
+  &:nth-child(4) {
+    margin-left: 29px;
+  }
+
+  &:nth-child(5) {
+    margin-left: 33px;
+  }
+}

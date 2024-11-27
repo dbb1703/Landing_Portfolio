@@ -33,7 +33,7 @@ module.exports = {
   devServer: {
     open: true,
     hot: true,
-    //watchFiles: path.join(__dirname, 'src')
+    watchFiles: path.join(__dirname, 'src')
   },
 
   module: {
