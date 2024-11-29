@@ -28,3 +28,18 @@
   max-width: 1140px;
   margin: 0 auto;
 }
+
+.page__menu--line {
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -14px;
+    display: block;
+    height: 24px;
+    width: 2px;
+    background-color: v.$main-text;
+    opacity: 20%;
+  }
+}
