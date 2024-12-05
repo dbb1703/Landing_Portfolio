@@ -6,8 +6,12 @@
 // Common
 @use 'blocks/common/header.scss';
 @use 'blocks/common/menu.scss';
+@use 'blocks/common/socials.scss';
 
 // Index
+@use 'blocks/index/services.scss';
+@use 'blocks/index/technologies.scss';
+@use 'blocks/index/steps.scss';
 
 // Visually-hidden
 @use 'global/visually-hidden.scss';
