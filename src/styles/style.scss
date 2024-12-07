@@ -9,9 +9,13 @@
 @use 'blocks/common/socials.scss';
 
 // Index
+@use 'blocks/index/about.scss';
 @use 'blocks/index/services.scss';
-@use 'blocks/index/technologies.scss';
+@use 'blocks/index/methods.scss';
 @use 'blocks/index/steps.scss';
+@use 'blocks/index/portfolio.scss';
+@use 'blocks/index/advantages.scss';
+@use 'blocks/index/technologies.scss';
 
 // Visually-hidden
 @use 'global/visually-hidden.scss';
