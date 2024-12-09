@@ -9,6 +9,7 @@
 @use 'blocks/common/socials.scss';
 @use 'blocks/common/btn.scss';
 @use 'blocks/common/form.scss';
+@use 'blocks/common/footer.scss';
 
 // Index
 @use 'blocks/index/about.scss';
@@ -19,6 +20,7 @@
 @use 'blocks/index/advantages.scss';
 @use 'blocks/index/technologies.scss';
 @use 'blocks/index/tariffs.scss';
+@use 'blocks/index/tell-us.scss';
 
 // Visually-hidden
 @use 'global/visually-hidden.scss';
