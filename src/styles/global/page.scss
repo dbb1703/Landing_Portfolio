@@ -43,3 +43,24 @@
     opacity: 20%;
   }
 }
+
+.page__discuss-link {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  margin-left: 2px;
+  letter-spacing: 0.1px;
+  padding-bottom: 12px;
+  padding-right: 8px;
+
+  &::after {
+    position: relative;
+    content: "\27F6";
+    left: 13px;
+  }
+
+  &:hover {
+    color: v.$main-text;
+    border-bottom: 2px solid v.$main-text;
+  }
+}
