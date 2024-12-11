@@ -1,0 +1,31 @@
+.socials__item {
+  margin-top: 1px;
+  margin-right: 57px;
+
+  &:last-child {
+    margin-right: 0;
+
+    &::after {
+      position: absolute;
+      content: '';
+      display: block;
+      width: 106px;
+      height: 106px;
+      background-color: #fff;
+      border-radius: 50%;
+      top: -41px;
+      left: -81px;
+      z-index: -1;
+    }
+  }
+
+  &::before {
+    left: -28px;
+    top: -1px;
+    z-index: 1;
+  }
+}
+
+.socials__link {
+  font-size: 16px;
+}
