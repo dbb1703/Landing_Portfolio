@@ -1,0 +1,59 @@
+@use '../../global/variables.scss' as v;
+
+.steps__items {
+  margin-top: 165px;
+
+  .steps__item:nth-child(1) {
+    .steps__title {
+      letter-spacing: 0.4px;
+    }
+
+    .steps__text {
+      margin-right: 68px;
+    }
+  }
+
+  .steps__item:nth-child(2) {
+    .steps__text {
+      margin-right: 12px;
+    }
+  }
+
+  .steps__item:nth-child(3) {
+    .steps__text {
+      margin-right: 145px;
+    }
+  }
+}
+
+.steps__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid v.$main-text;
+  padding: 23px 0 22px;
+
+  &:last-child {
+    border-bottom: 1px solid v.$main-text;
+  }
+}
+
+.steps__title {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 150%;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0.2px;
+}
+
+.steps__number {
+  margin-right: 30px;
+  letter-spacing: 1px;
+}
+
+.steps__text {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.1px;
+}

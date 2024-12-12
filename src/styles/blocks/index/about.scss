@@ -71,3 +71,32 @@
   margin-top: 59px;
   padding-top: 46px;
 }
+
+.about__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 143px;
+}
+
+.about__subtitle {
+  font-size: 28px;
+  text-transform: uppercase;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  margin-left: 1px;
+}
+
+.about__slogan {
+  font-size: 28px;
+  max-width: 560px;
+  opacity: 0.8;
+  letter-spacing: 0.3px;
+  line-height: 150%;
+  margin-top: 23px;
+}
+
+.about__services {
+  margin-top: 31px;
+  border-top: 1px solid v.$main-text;
+
+}

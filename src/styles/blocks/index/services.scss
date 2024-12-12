@@ -1,0 +1,35 @@
+.services__items {
+  max-width: 560px;
+  margin-top: 46px;
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px 21px;
+
+  .services__item:nth-child(1) {
+    max-width: 224px;
+  }
+
+  .services__item:nth-child(2) {
+    max-width: 270px;
+  }
+
+  .services__item:nth-child(3) {
+    .services__title {
+      letter-spacing: -0.2px;
+    }
+  }
+}
+
+.services__item {
+}
+
+.services__title {
+  margin: 16px 0;
+}
+
+.services__text {
+  margin-top: 22px;
+  line-height: 150%;
+  letter-spacing: 0.2px;
+}
