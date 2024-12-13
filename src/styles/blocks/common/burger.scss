@@ -1,0 +1,7 @@
+@use '../../global/variables.scss' as v;
+
+.burger__line {
+  width: 26px;
+  height: 2px;
+  background-color: v.$main-text;
+}

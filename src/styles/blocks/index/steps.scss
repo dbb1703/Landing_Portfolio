@@ -24,6 +24,18 @@
       margin-right: 145px;
     }
   }
+
+  @media (max-width: 1150px) {
+    margin-top: 50px;
+  }
+
+  @media (max-width: 1000px) {
+    .steps__item:nth-child(1) .steps__text,
+    .steps__item:nth-child(2) .steps__text,
+    .steps__item:nth-child(3) .steps__text {
+      margin-right: auto;
+    }
+  }
 }
 
 .steps__item {
@@ -45,15 +57,40 @@
   padding: 0;
   margin: 0;
   letter-spacing: 0.2px;
+
+  @media (max-width: 1050px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 1000px) {
+    font-size: 16px;
+    width: 300px;
+  }
+
+  @media (max-width: 850px) {
+    width: 250px;
+  }
 }
 
 .steps__number {
   margin-right: 30px;
   letter-spacing: 1px;
+
+  @media (max-width: 1050px) {
+    margin-right: 10px;
+  }
+
+  @media (max-width: 850px) {
+    margin-right: 0;
+  }
 }
 
 .steps__text {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.1px;
+
+  @media (max-width: 1000px) {
+    font-size: 14px;
+  }
 }

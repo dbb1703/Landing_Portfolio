@@ -2,6 +2,10 @@
 
 .about__pic {
   margin-top: 20px;
+
+  @media (max-width: 800px) {
+    margin-top: 0;
+  }
 }
 
 .about__name {
@@ -48,6 +52,11 @@
     border-right-width: 33px;
     border-left-width: 33px;
     border-bottom: 71px solid v.$accent-text;
+
+    @media (max-width: 900px) {
+      top: 65px;
+      left: 0;
+    }
   }
 }
 
@@ -76,6 +85,14 @@
   display: flex;
   justify-content: space-between;
   margin-top: 143px;
+
+  @media (max-width: 1000px) {
+    margin-top: 50px;
+  }
+
+  @media (max-width: 850px) {
+    align-items: baseline;
+  }
 }
 
 .about__subtitle {
@@ -84,6 +101,10 @@
   line-height: 150%;
   letter-spacing: 0.03em;
   margin-left: 1px;
+
+  @media (max-width: 850px) {
+    font-size: 20px;
+  }
 }
 
 .about__slogan {
@@ -93,10 +114,17 @@
   letter-spacing: 0.3px;
   line-height: 150%;
   margin-top: 23px;
+
+  @media (max-width: 900px) {
+    font-size: 20px;
+
+    br {
+      display: none;
+    }
+  }
 }
 
 .about__services {
   margin-top: 31px;
   border-top: 1px solid v.$main-text;
-
 }

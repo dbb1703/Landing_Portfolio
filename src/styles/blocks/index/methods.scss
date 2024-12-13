@@ -1,6 +1,11 @@
 .methods__items {
   display: flex;
 
+  @media (max-width: 1150px) {
+    justify-content: space-between;
+    gap: 20px;
+  }
+
   .methods__item:nth-child(1) {
     max-width: 200px;
     margin-right: 90px;
@@ -20,12 +25,22 @@
     margin-top: 1px;
     max-width: 242px;
   }
+
+  @media (max-width: 1150px) {
+    .methods__item:nth-child(1),
+    .methods__item:nth-child(2),
+    .methods__item:nth-child(3),
+    .methods__item:nth-child(4) {
+      max-width: unset;
+      margin-right: auto;
+    }
+  }
 }
 
 .methods__item {
   margin-right: 93px;
 
-  &:last-child  {
+  &:last-child {
     margin-right: 0;
   }
 }
