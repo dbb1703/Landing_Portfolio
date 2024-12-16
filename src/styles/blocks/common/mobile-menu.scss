@@ -1,0 +1,59 @@
+@use '../../global/variables.scss' as v;
+
+.mobile-menu__wrapper {
+  text-align: center;
+}
+
+.mobile-menu__close {
+  margin-left: auto;
+  margin-right: 7px;
+  margin-bottom: 24px;
+  padding-top: 29px;
+  display: block;
+  position: relative;
+  width: 26px;
+  height: 26px;
+  background-color: transparent;
+
+  &::after {
+    transform: rotate(45deg);
+  }
+
+  &::before {
+    transform: rotate(-45deg);
+  }
+
+  &::after,
+  &::before {
+    background-color: #000;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+
+    position: absolute;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+  }
+}
+
+.mobile-menu__items {
+  .mobile-menu__item {
+    &:last-child {
+      .mobile-menu__link {
+        border-bottom: 1px solid v.$main-text;
+      }
+    }
+  }
+}
+
+.mobile-menu__link {
+  border-top: 1px solid v.$main-text;
+  display: block;
+  font-size: 26px;
+  line-height: 150%;
+  padding: 19px 0 20px;
+  margin: 0 10px;
+  letter-spacing: 0.2px;
+}

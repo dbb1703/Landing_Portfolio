@@ -69,3 +69,13 @@
     border-bottom: 2px solid v.$main-text;
   }
 }
+
+.page__modal {
+  display: none;
+
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+
+  background-color: v.$main-background;
+}
