@@ -48,6 +48,10 @@
 .methods__title {
   text-transform: uppercase;
   letter-spacing: 0.4px;
+
+  @media (max-width: 800px) {
+    font-size: 14px;
+  }
 }
 
 .methods__text {

@@ -47,6 +47,20 @@
     background-color: v.$main-text;
     opacity: 20%;
   }
+
+  @media (max-width: 800px) {
+    &:before {
+      width: 1px;
+    }
+  }
+}
+
+.page__menu--line-small {
+  &:before {
+    height: 15px;
+    top: -1px;
+    left: -11px;
+  }
 }
 
 .page__discuss-link {
@@ -71,11 +85,10 @@
 }
 
 .page__modal {
-  display: none;
-
   position: fixed;
   z-index: 100;
   width: 100%;
+  height: 100vh;
 
-  background-color: v.$main-background;
+  background-color: rgba(1, 1, 1, 0.4);
 }
