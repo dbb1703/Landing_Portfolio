@@ -70,6 +70,10 @@
   @media (max-width: 850px) {
     width: 250px;
   }
+
+  @media (max-width: 800px) {
+    width: 50%;
+  }
 }
 
 .steps__number {
@@ -92,5 +96,10 @@
 
   @media (max-width: 1000px) {
     font-size: 14px;
+  }
+
+  @media (max-width: 800px) {
+    font-size: 12px;
+    width: 50%;
   }
 }

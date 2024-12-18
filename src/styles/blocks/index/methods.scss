@@ -32,7 +32,21 @@
     .methods__item:nth-child(3),
     .methods__item:nth-child(4) {
       max-width: unset;
-      margin-right: auto;
+      margin-right: unset;
+    }
+  }
+
+  @media (max-width: 750px) {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    .methods__item:nth-child(1),
+    .methods__item:nth-child(2),
+    .methods__item:nth-child(3),
+    .methods__item:nth-child(4) {
+      box-sizing: border-box;
+      width: calc(50% - 15px);
     }
   }
 }
