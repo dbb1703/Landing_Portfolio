@@ -36,10 +36,15 @@
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 20px;
+
+  @media (max-width: 500px) {
+    padding: 0 10px;
+  }
 }
 
 .page__menu--line {
   position: relative;
+
   &:before {
     content: '';
     position: absolute;
@@ -50,13 +55,19 @@
     width: 2px;
     background-color: v.$main-text;
     opacity: 20%;
-  }
 
-  @media (max-width: 800px) {
-    &:before {
+    @media (max-width: 800px) {
       width: 1px;
     }
+
+    @media (max-width: 360px) {
+      width: 1px;
+      height: 15px;
+      left: -11px;
+      top: 1px;
+    }
   }
+
 }
 
 .page__menu--line-small {
@@ -80,11 +91,24 @@
     position: relative;
     content: "\27F6";
     left: 13px;
+
+    @media (max-width: 360px) {
+      left: 7px;
+      top: 1px;
+    }
   }
 
   &:hover {
     color: v.$main-text;
     border-bottom: 2px solid v.$main-text;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 12px;
+  }
+
+  @media (max-width: 360px) {
+    margin-left: 0;
   }
 }
 

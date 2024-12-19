@@ -14,10 +14,19 @@
     @media (max-width: 550px) {
       left: -22px;
     }
+
+    @media (max-width: 360px) {
+      left: -11px;
+      top: 1px;
+    }
   }
 
   @media (max-width: 550px) {
     margin-right: 40px;
+  }
+
+  @media (max-width: 360px) {
+    margin-right: 22px;
   }
 }
 
@@ -33,9 +42,25 @@
     top: -41px;
     left: -81px;
     z-index: -1;
+
+    @media (max-width: 450px) {
+      width: 60px;
+      height: 60px;
+      top: -19px;
+      left: -52px;
+    }
+
+    @media (max-width: 360px) {
+      top: -22px;
+      left: -41px;
+    }
   }
 }
 
 .socials__link {
   font-size: 16px;
+
+  @media (max-width: 450px) {
+    font-size: 12px;
+  }
 }

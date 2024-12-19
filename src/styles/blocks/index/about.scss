@@ -20,6 +20,14 @@
   @media (max-width: 650px) {
     font-size: 18px;
   }
+
+  @media (max-width: 550px) {
+    margin-top: 60px;
+  }
+
+  @media (max-width: 360px) {
+    letter-spacing: 0.1px;
+  }
 }
 
 .about__title {
@@ -46,6 +54,11 @@
       height: 135px;
       top: -69px;
       left: -41px;
+    }
+
+    @media (max-width: 360px) {
+      top: -71px;
+      left: -52px;
     }
   }
 
@@ -75,22 +88,42 @@
       border-bottom: 38px solid v.$accent-text;
       top: 44px;
     }
+
+    @media (max-width: 360px) {
+      border-right-width: 15px;
+      border-left-width: 15px;
+      border-bottom: 28px solid #D40000;
+      top: 54px;
+      left: 2px;
+    }
   }
 
   @media (max-width: 650px) {
     margin-top: 20px;
+  }
+
+  @media (max-width: 360px) {
+    letter-spacing: 1.1px;
   }
 }
 
 .about__dash {
   position: relative;
   bottom: 5px;
+
+  @media (max-width: 360px) {
+    bottom: 2px;
+  }
 }
 
 .about__connect {
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
+
+  @media (max-width: 360px) {
+    margin-top: 99px;
+  }
 }
 
 .about__socials {
@@ -101,6 +134,11 @@
   border-top: 1px solid v.$main-text;
   margin-top: 59px;
   padding-top: 46px;
+
+  @media (max-width: 360px) {
+    margin-top: 40px;
+    padding-top: 41px;
+  }
 }
 
 .about__wrapper {

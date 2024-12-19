@@ -48,6 +48,10 @@
   &:last-child {
     border-bottom: 1px solid v.$main-text;
   }
+
+  @media (max-width: 550px) {
+    gap: 27px;
+  }
 }
 
 .steps__title {

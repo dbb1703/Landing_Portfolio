@@ -49,6 +49,10 @@
       width: calc(50% - 15px);
     }
   }
+
+  @media (max-width: 360px) {
+    gap: 21px 15px;
+  }
 }
 
 .methods__item {
@@ -66,10 +70,20 @@
   @media (max-width: 800px) {
     font-size: 14px;
   }
+
+  @media (max-width: 360px) {
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 17px;
+  }
 }
 
 .methods__text {
   line-height: 150%;
   opacity: 0.8;
   letter-spacing: 0.2px;
+
+  @media (max-width: 360px) {
+    font-size: 10px;
+  }
 }

@@ -8,4 +8,8 @@
     padding-top: 20px;
     padding-bottom: 40px;
   }
+
+  @media (max-width: 360px) {
+    padding-bottom: 40px;
+  }
 }
