@@ -23,14 +23,29 @@
   @media (max-width: 750px) {
     max-width: unset;
   }
+
+  @media (max-width: 360px) {
+    margin-top: 25px;
+    gap: 5px;
+  }
 }
 
 .services__title {
   margin: 16px 0;
+
+  @media (max-width: 360px) {
+    font-size: 12px;
+    margin-bottom: 17px;
+  }
 }
 
 .services__text {
   margin-top: 22px;
   line-height: 150%;
   letter-spacing: 0.2px;
+
+  @media (max-width: 360px) {
+    font-size: 10px;
+    margin-top: 0;
+  }
 }
