@@ -1,0 +1,76 @@
+@use '../../global/variables.scss' as v;
+
+.portfolio__title {
+  margin-top: 180px;
+  margin-bottom: 144px;
+  letter-spacing: 1px;
+  position: relative;
+  z-index: 10;
+
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 465px;
+    height: 465px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: -89px;
+    left: 347px;
+  }
+}
+
+.portfolio__subtitle {
+  font-weight: bold;
+  margin: 40px 0 42px 1px;
+  letter-spacing: 0.2px;
+}
+
+.portfolio__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+  border-bottom: 1px solid v.$main-text;
+
+  &:first-child {
+    .portfolio__pic {
+      top: 1px;
+    }
+  }
+
+  &:last-child {
+    padding-bottom: 59px;
+  }
+}
+
+.portfolio__step {
+  font-size: 16px;
+  opacity: 0.8;
+  margin-bottom: 14px;
+  letter-spacing: 0.2px;
+}
+
+.portfolio__duration {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 44px;
+}
+
+.portfolio__pic {
+  max-width: 560px;
+  position: relative;
+  z-index: 10;
+}
+
+.portfolio__advertising {
+  max-width: 870px;
+  margin-top: 180px;
+  padding-bottom: 51px;
+  letter-spacing: 0.2px;
+  line-height: 150%;
+  font-size: 28px;
+}
+
+.portfolio__advantages {
+  border-top: 1px solid v.$main-text;
+}

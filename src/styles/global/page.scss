@@ -121,3 +121,11 @@
 
   background-color: rgba(1, 1, 1, 0.4);
 }
+
+.page__gradient {
+  background-color: v.$main-background;
+  background-image: linear-gradient(180deg, #e7e6e6 0%, rgba(231, 230, 230, 0) 100%);
+  background-position: 0 234px;
+  background-repeat: no-repeat;
+  background-size: 100% 435px;
+}
