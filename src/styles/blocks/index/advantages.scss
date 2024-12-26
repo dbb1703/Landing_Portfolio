@@ -1,0 +1,28 @@
+.advantages__items {
+  padding: 80px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 64px 65px;
+}
+
+.advantages__item {
+  max-width: 322px;
+  display: flex;
+}
+
+.advantages__icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 40px;
+  margin-top: 16px;
+}
+
+.advantages__title {
+  margin: 0;
+}
+
+.advantages__text {
+  margin-top: 10px;
+  line-height: 150%;
+  opacity: 0.8;
+}

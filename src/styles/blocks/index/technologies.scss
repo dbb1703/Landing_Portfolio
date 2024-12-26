@@ -1,0 +1,25 @@
+@use '../../global/variables.scss' as v;
+
+.technologies__items {
+  padding-top: 86px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.technologies__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 286px;
+  height: 148px;
+  border: 1px solid v.$main-text;
+
+  &:not(:nth-child(4n)) {
+    border-right: none;
+  }
+
+  &:nth-last-child(-n+4) {
+    border-top: none;
+  }
+}
