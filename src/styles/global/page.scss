@@ -30,6 +30,10 @@
   font-size: 28px;
   line-height: 150%;
   opacity: 0.8;
+
+  @media (max-width: 650px) {
+    font-size: 20px;
+  }
 }
 
 .page__container {
@@ -128,4 +132,12 @@
   background-position: 0 234px;
   background-repeat: no-repeat;
   background-size: 100% 435px;
+
+  @media (max-width: 900px) {
+      background-position: 0 150px;
+  }
+
+  @media (max-width: 650px) {
+      background-position: 0 100px;
+  }
 }

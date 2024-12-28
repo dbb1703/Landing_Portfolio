@@ -3,11 +3,29 @@
   display: flex;
   flex-wrap: wrap;
   gap: 64px 65px;
+
+  @media (max-width: 1150px) {
+    gap: 20px;
+    justify-content: center;
+  }
+
+  @media (max-width: 600px) {
+    padding: 40px 0;
+  }
+
 }
 
 .advantages__item {
   max-width: 322px;
   display: flex;
+
+  @media (max-width: 1150px) {
+    max-width: 30%;
+  }
+
+  @media (max-width: 750px) {
+    max-width: 45%;
+  }
 }
 
 .advantages__icon {
@@ -15,14 +33,26 @@
   height: 40px;
   margin-right: 40px;
   margin-top: 16px;
+
+  @media (max-width: 800px) {
+    margin-right: 20px;
+  }
 }
 
 .advantages__title {
   margin: 0;
+
+  @media (max-width: 600px) {
+    font-size: 12px;
+  }
 }
 
 .advantages__text {
   margin-top: 10px;
   line-height: 150%;
   opacity: 0.8;
+
+  @media (max-width: 600px) {
+    font-size: 12px;
+  }
 }

@@ -18,17 +18,42 @@
     top: -89px;
     left: 347px;
   }
+
+  @media (max-width: 900px) {
+    &::after {
+      width: 300px;
+      height: 300px;
+      left: 270px;
+    }
+  }
+
+  @media (max-width: 650px) {
+    margin-bottom: 100px;
+    margin-top: 150px;
+
+    &::after {
+      top: -60px;
+      left: 130px;
+      width: 200px;
+      height: 200px;
+    }
+  }
 }
 
 .portfolio__subtitle {
   font-weight: bold;
   margin: 40px 0 42px 1px;
   letter-spacing: 0.2px;
+
+  @media (max-width: 650px) {
+      margin: 20px 0;
+  }
 }
 
 .portfolio__item {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 60px 0;
   border-bottom: 1px solid v.$main-text;
 
@@ -41,6 +66,24 @@
   &:last-child {
     padding-bottom: 59px;
   }
+
+  @media (max-width: 950px) {
+    gap: 20px;
+  }
+
+  @media (max-width: 650px) {
+    padding: 40px 0;
+  }
+
+  @media (max-width: 550px) {
+      flex-direction: column;
+  }
+}
+
+.portfolio__item-wrapper {
+  @media (max-width: 550px) {
+    align-self: flex-start;
+  }
 }
 
 .portfolio__step {
@@ -48,18 +91,48 @@
   opacity: 0.8;
   margin-bottom: 14px;
   letter-spacing: 0.2px;
+
+  @media (max-width: 900px) {
+    font-size: 14px;
+  }
+
+  @media (max-width: 650px) {
+    font-size: 12px;
+  }
 }
 
 .portfolio__duration {
   font-size: 16px;
   font-weight: bold;
   margin-top: 44px;
+
+  @media (max-width: 900px) {
+    font-size: 14px;
+  }
+
+  @media (max-width: 650px) {
+    font-size: 12px;
+    margin-top: 20px;
+  }
 }
 
 .portfolio__pic {
   max-width: 560px;
   position: relative;
   z-index: 10;
+
+  @media (max-width: 850px) {
+    max-width: 400px;
+  }
+
+  @media (max-width: 650px) {
+    max-width: 340px;
+  }
+
+  @media (max-width: 550px) {
+    max-width: unset;
+    width: 100%;
+  }
 }
 
 .portfolio__advertising {
@@ -69,6 +142,19 @@
   letter-spacing: 0.2px;
   line-height: 150%;
   font-size: 28px;
+
+  @media (max-width: 950px) {
+    max-width: 700px;
+    font-size: 20px;
+    margin-top: 100px;
+  }
+
+  @media (max-width: 650px) {
+    max-width: unset;
+    font-size: 16px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
 }
 
 .portfolio__advantages {

@@ -5,6 +5,10 @@
   padding-bottom: 2px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+
+  @media (max-width: 900px) {
+    padding-top: 0px;
+  }
 }
 
 .technologies__item {
@@ -40,6 +44,16 @@
   height: 146px;
   opacity: 0.3;
   filter: grayscale(1);
+
+  @media (max-width: 600px) {
+    height: 120px;
+  }
+}
+
+.technologies__icon {
+  @media (max-width: 600px) {
+    max-width: 40px;
+  }
 }
 
 .technologies__item-text {
@@ -71,5 +85,21 @@
     width: 0;
     border-bottom-color: #E31B1B;
     margin-left: 8px;
+  }
+
+  @media (max-width: 900px) {
+    width: 200px;
+    padding: 20px 10px;
+  }
+
+  @media (max-width: 700px) {
+    width: 150px;
+    padding: 10px 5px;
+    line-height: 100%;
+  }
+
+  @media (max-width: 600px) {
+    top: 90px;
+    width: 130px;
   }
 }
