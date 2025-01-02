@@ -1,0 +1,115 @@
+@use '../../global/variables.scss' as v;
+
+.tariffs__wrapper {
+  display: flex;
+  margin-top: 179px;
+  justify-content: space-between;
+}
+
+.tariffs__title {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+
+  &::before {
+    content: "";
+    display: block;
+    height: 140px;
+    width: 140px;
+    z-index: -1;
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 100%;
+    background-color: #fff;
+    top: -50px;
+    left: -70px;
+  }
+}
+
+.tariffs__text {
+  font-size: 28px;
+  letter-spacing: 0.3px;
+  margin: 0;
+  line-height: 150%;
+  max-width: 560px;
+}
+
+.tariffs__items {
+  .tariffs__item:nth-child(1) {
+    margin-top: 79px;
+  }
+}
+
+.tariffs__item {
+  margin-top: 60px;
+  padding-top: 40px;
+  border-top: 1px solid v.$main-text;
+  display: flex;
+}
+
+.tariffs__description {
+  width: 386px;
+}
+
+.tariffs__subtitle {
+  font-size: 28px;
+  line-height: 150%;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 22px;
+  letter-spacing: 0.3px;
+}
+
+.tariffs__p {
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.8;
+  margin-top: 22px;
+  letter-spacing: 0.4px;
+}
+
+.tariffs__discuss-link {
+  display: inline-block;
+  margin-top: 61px;
+}
+
+.tariffs__include {
+  margin-left: 195px;
+}
+
+.tariffs__list {
+  list-style: disc;
+  margin-top: 21px;
+  margin-left: 17px;
+}
+
+.tariffs__list-item {
+  font-size: 16px;
+  opacity: 0.8;
+  line-height: 200%;
+}
+
+.tariffs__price {
+  font-size: 42px;
+  line-height: 150%;
+  margin-top: 40px;
+  display: block;
+  letter-spacing: 0.8px;
+}
+
+.tariffs__price--disc {
+  position: relative;
+  z-index: 1;
+
+  &::before {
+    content: "";
+    position: absolute;
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    z-index: -1;
+    background-color: #fff;
+    top: -12px;
+    left: -46px;
+  }
+}
