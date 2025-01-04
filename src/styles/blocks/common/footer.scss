@@ -1,0 +1,7 @@
+@use '../../global/variables.scss' as v;
+
+.footer__menu {
+  margin-top: 129px;
+  padding-top: 61px;
+  border-top: 1px solid v.$main-text;
+}

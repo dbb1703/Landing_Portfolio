@@ -1,0 +1,32 @@
+@use '../../global/variables.scss' as v;
+
+.form {
+  font-size: 12px;
+  line-height: 150%;
+}
+
+.form__label {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.form__text {
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.form__input {
+  background-color: rgba(1, 1, 1, 0.05);
+  border: none;
+  padding: 24px 20px 23px;
+
+  &::placeholder {
+
+  }
+}
+
+.form__btn {
+  margin-top: 18px;
+}
