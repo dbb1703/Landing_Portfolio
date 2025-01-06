@@ -21,12 +21,12 @@
   background-color: rgba(1, 1, 1, 0.05);
   border: none;
   padding: 24px 20px 23px;
-
-  &::placeholder {
-
-  }
 }
 
 .form__btn {
-  margin-top: 18px;
+  margin-top: 15px;
+}
+
+.form__dropdown {
+  position: relative;
 }
