@@ -3,6 +3,11 @@
 .form {
   font-size: 12px;
   line-height: 150%;
+
+  @media (max-width: 360px) {
+    opacity: 0.8;
+    font-size: 10px;
+  }
 }
 
 .form__label {
@@ -10,23 +15,38 @@
   flex-direction: column;
   width: 100%;
   margin-bottom: 24px;
+
+  @media (max-width: 360px) {
+    margin-bottom: 20px;
+  }
 }
 
 .form__text {
   opacity: 0.8;
   margin-bottom: 10px;
+
+  @media (max-width: 360px) {
+    margin-bottom: 8px;
+  }
 }
 
 .form__input {
   background-color: rgba(1, 1, 1, 0.05);
   border: none;
   padding: 24px 20px 23px;
+  font-size: 12px;
+
+  @media (max-width: 360px) {
+    font-size: 10px;
+    padding: 22px 21px;
+  }
 }
 
 .form__btn {
   margin-top: 15px;
-}
 
-.form__dropdown {
-  position: relative;
+  @media (max-width: 360px) {
+    margin-top: 10px;
+    padding: 21px 20px 20px;
+  }
 }

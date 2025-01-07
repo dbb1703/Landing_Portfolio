@@ -48,11 +48,15 @@
     margin-right: 4px;
     margin-top: 3px;
   }
+
+  @media (max-width: 360px) {
+    padding: 20px;
+  }
 }
 
 .dropdown__items {
   position: absolute;
-  top: calc(100%);
+  top: 100%;
   width: 100%;
   padding: 0 0 11px;
   margin: 0;
