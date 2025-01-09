@@ -1,11 +1,32 @@
 @use '../../global/variables.scss' as v;
 
 .footer__menu {
-  margin-top: 129px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
   padding-top: 61px;
   border-top: 1px solid v.$main-text;
 
   @media (max-width: 750px) {
     margin-top: 61px;
+  }
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 27px;
+  color: rgb(122, 121, 120);
+}
+
+.footer__link {
+  color: rgb(122, 121, 120);
+  border-bottom: 1px solid rgb(122, 121, 120);
+
+  &:hover {
+    color: v.$main-text;
+    border-color: v.$main-text;
   }
 }
