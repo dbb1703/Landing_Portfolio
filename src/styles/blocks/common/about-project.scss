@@ -1,0 +1,57 @@
+@use '../../global/variables.scss' as v;
+
+.about-project {
+  display: none;
+}
+
+.about-project__wrapper {
+  width: 600px;
+  background-color: v.$main-background;
+  margin: auto;
+  padding-bottom: 31px;
+  position: relative;
+}
+
+.about-project__title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 150%;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 16px;
+  letter-spacing: 0.03em;
+}
+
+.about-project__text {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 340px;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+}
+
+.about-project__form {
+  border-top: 1px solid v.$main-text;
+  padding-top: 50px;
+  max-width: 560px;
+  margin: 28px auto 0;
+  position: relative;
+}
+
+.about-project__label {
+  position: relative;
+  top: -10px;
+}
+
+.about-project__btn {
+  position: relative;
+  top: -9px;
+  width: 100%;
+}
+
+.about-project__close {
+  position: absolute;
+  right: 10px;
+}

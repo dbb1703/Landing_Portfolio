@@ -13,7 +13,7 @@
 <div class="page__modal mobile-menu">
   <nav class="mobile-menu__wrapper">
     <a href="#"
-       class="mobile-menu__close"><span class="visually-hidden">Закрыть меню</span></a>
+       class="page__modal-close"><span class="visually-hidden">Закрыть меню</span></a>
     <ul class="mobile-menu__items">
       <li class="mobile-menu__item">
         <a href="#"
@@ -61,6 +61,44 @@
       </li>
     </ul>
   </nav>
+</div>
+<div class="page__modal about-project">
+  <div class="about-project__wrapper">
+    <a href="#"
+       class="page__modal-close about-project__close"><span class="visually-hidden">Закрыть окно</span></a>
+    <h2 class="about-project__title">Расскажите о своем проекте</h2>
+    <p class="about-project__text">Заполните все поля, и я свяжусь с вами в ближайшее время</p>
+    <form class="about-project__form form">
+      <label class="form__label about-project__label">
+        <span class="form__text">Телефон или почта</span>
+        <input type="text"
+               class="form__input"
+               name="phone"
+               placeholder="Введите телефон">
+      </label>
+      <label class="form__label about-project__label dropdown">
+        <input type="checkbox"
+               class="dropdown__checkbox">
+        <span class="form__text">Выберите удобный способ связи</span>
+        <span class="dropdown__control">Telegram</span>
+        <span class="dropdown__items">
+<!--          <a href="#"-->
+          <!--             class="dropdown__item">Telegram</a>-->
+          <a href="#"
+             class="dropdown__item">WhatsApp</a>
+          <a href="#"
+             class="dropdown__item">Viber</a>
+          <a href="#"
+             class="dropdown__item">Звонок на телефон</a>
+          <a href="#"
+             class="dropdown__item">SMS сообщение</a>
+        </span>
+      </label>
+      <button class="btn form__btn about-project__btn"
+              type="submit">Отправить
+      </button>
+    </form>
+  </div>
 </div>
 <header class="page__container header">
   <nav class="header__menu menu">
@@ -460,7 +498,7 @@
         <span class="dropdown__control">Telegram</span>
         <span class="dropdown__items">
 <!--          <a href="#"-->
-<!--             class="dropdown__item">Telegram</a>-->
+          <!--             class="dropdown__item">Telegram</a>-->
           <a href="#"
              class="dropdown__item">WhatsApp</a>
           <a href="#"
