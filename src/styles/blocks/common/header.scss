@@ -1,8 +1,26 @@
+@use '../../global/variables.scss' as v;
+
+.header {
+  position: fixed;
+  background-color: v.$main-background;
+  width: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+
+  @media (max-width: 800px) {
+    position: static;
+    transform: none;
+  }
+}
+
 .header__menu {
   display: flex;
+  max-width: 1140px;
+  padding: 41px 20px 40px;
+  margin: 0 auto;
   justify-content: space-between;
-  padding-top: 41px;
-  padding-bottom: 40px;
 
   @media (max-width: 800px) {
     padding-top: 20px;
@@ -10,6 +28,7 @@
   }
 
   @media (max-width: 360px) {
-    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
