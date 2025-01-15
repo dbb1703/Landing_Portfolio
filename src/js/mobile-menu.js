@@ -1,6 +1,6 @@
 let menu = document.querySelector('.mobile-menu');
 let menuOpened = document.querySelector('.burger');
-let menuClosed = document.querySelector('.mobile-menu__close');
+let menuClosed = document.querySelector('.page__modal-close');
 
 function menuToggle(elem, menu) {
   elem.addEventListener('click', function (e) {
