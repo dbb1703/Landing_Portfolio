@@ -51,6 +51,13 @@
       height: 197px;
     }
   }
+
+  @media (max-width: 340px) {
+      &::after {
+        width: 100px;
+        height: 100px;
+      }
+  }
 }
 
 .portfolio__subtitle {
