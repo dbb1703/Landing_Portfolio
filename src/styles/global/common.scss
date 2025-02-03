@@ -42,4 +42,8 @@ ul {
 
 * {
   scroll-margin-top: 104px;
+
+  @media (max-width: 800px) {
+      scroll-margin-top: 0;
+  }
 }
